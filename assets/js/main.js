@@ -12,5 +12,12 @@ fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-02-28&sortBy=publishe
             console.log(elt.title);
             console.log(elt.description);
             console.log(elt.urlToImage);
+            section.innerHTML += `
+            <div>
+                <h2>${elt.title}</h2>
+                <p>${elt.description}</p>
+                <img src="${elt.urlToImage}" alt="random">
+            </div>
+            `
         })
     });
