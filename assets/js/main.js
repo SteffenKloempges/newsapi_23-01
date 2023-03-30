@@ -3,7 +3,7 @@ const button = document.querySelector('form input[type="button"]');
 const section = document.querySelector('section');
 
 
-fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-02-28&sortBy=publishedAt&apiKey=3b4cb058feb94dcbb1da464aad22f3e2")
+fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-02-28&sortBy=publishedAt&apiKey=89b8780c0d164bd0801a3ceb28319e7c")
     .then(response => response.json())
     .then(data => {
         console.log(data)

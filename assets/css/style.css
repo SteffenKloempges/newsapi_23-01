@@ -1,0 +1,14 @@
+section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   width: 800px;
+   background-color: antiquewhite;
+   margin: 0 auto;
+}
+
+section img {
+    width: 400px;
+    height: 400px;
+} 
